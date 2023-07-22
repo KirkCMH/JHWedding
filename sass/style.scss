@@ -365,13 +365,12 @@ audio {
     position: relative;
     width: 100%;
     height: auto;
-    padding-bottom: 40px;
+    // padding-bottom: 40px;
 
     iframe {
       position: absolute;
       left: calc(640px + 8%);
-      top: 144px;
-      width: 500px;
+      width: 600px;
       height: 280px;
     }
   }
@@ -462,10 +461,6 @@ audio {
   .banquet {
     background: white;
     padding-bottom: 84px;
-
-    iframe {
-      top: 190px;
-    }
   }
 }
 
