@@ -45,7 +45,7 @@ audio:hover {
 
 .page {
   width: 100vw;
-  height: 100vh;
+  height: 780px;
   position: relative;
 }
 
@@ -255,7 +255,7 @@ audio:hover {
 .huge_photo_page .full_screen {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 130vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -265,6 +265,7 @@ audio:hover {
   height: auto;
   width: 100vw;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 .location_page .location {
   position: relative;
@@ -273,8 +274,8 @@ audio:hover {
 }
 .location_page .location iframe {
   position: absolute;
-  left: calc(640px + 8%);
-  width: 600px;
+  left: calc(540px + 8%);
+  width: 550px;
   height: 280px;
 }
 .location_page .title {

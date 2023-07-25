@@ -59,14 +59,11 @@ audio {
 .page {
   // whole page
   width: 100vw;
-  height: 100vh;
+  height: 780px;
   position: relative;
 }
 
 .welcome_page {
-  // feat .page class
-  // overflow-x: hidden;
-  // overflow-y: hidden;
   position: relative;
   background: linear-gradient(to top, $pink, $light_pink);
 
@@ -138,9 +135,7 @@ audio {
     position: relative;
     width: 100%;
     margin-top: -85px;
-    // top: 705px;
     text-align: center;
-    // 這裡的top是對應誰的啊幹？為什麼不是對整個welcome_page？
     z-index: 999;
 
     animation-delay: 2s;
@@ -350,7 +345,7 @@ audio {
   .full_screen {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     object-fit: cover;
   }
 }
@@ -360,6 +355,7 @@ audio {
   height: auto;
   width: 100vw;
   overflow-x: hidden;
+  margin: 0 auto;
 
   .location {
     position: relative;
@@ -369,8 +365,8 @@ audio {
 
     iframe {
       position: absolute;
-      left: calc(640px + 8%);
-      width: 600px;
+      left: calc(540px + 8%);
+      width: 550px;
       height: 280px;
     }
   }
