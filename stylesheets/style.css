@@ -610,9 +610,7 @@ audio:hover {
     left: 53%;
   }
   .welcome_page .welcome {
-    height: 16vh;
-    padding-top: 54vh;
-    padding-top: 450px;
+    padding-top: 390px;
     font-size: 36px;
   }
   .welcome_page .Jack_and_Hanny {
@@ -636,7 +634,7 @@ audio:hover {
     top: -5vh;
   }
   .timeline_page .image_window .text {
-    width: 270px;
+    width: 67vw;
   }
   .timeline_page .image_window #image_four {
     top: -5vh;

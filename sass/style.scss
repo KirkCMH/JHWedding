@@ -780,9 +780,8 @@ audio {
 
     .welcome {
       // top: calc(325px + #{$rwd_top});
-      height: 16vh;
-      padding-top: 54vh;
-      padding-top: 450px;
+      // height: 16vh;
+      padding-top: 390px;
       font-size: 36px;
     }
 
@@ -816,7 +815,7 @@ audio {
       }
       .text {
         
-        width: 270px;
+        width: 67vw;
       }
       #image_four {
         top: -5vh;
