@@ -499,7 +499,7 @@ audio:hover {
   }
   .welcome_page .buttonset .button {
     height: 19.5px;
-    margin: 0 2.5%;
+    margin: 0 2%;
   }
   .timeline_page {
     height: 200vh;
@@ -515,7 +515,7 @@ audio:hover {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    right: 0;
+    left: 0vw;
     top: 0;
   }
   .timeline_page .image_window .window {
@@ -575,7 +575,7 @@ audio:hover {
   .timeline_page .image_window .title .text {
     font-weight: normal;
     font-size: 16px;
-    margin-left: 12vw;
+    margin-left: 3vw;
     line-height: 25px;
     margin-top: 11px;
   }
@@ -635,7 +635,7 @@ audio:hover {
     top: -5vh;
   }
   .timeline_page .image_window .text {
-    width: 300px;
+    width: 270px;
   }
   .timeline_page .image_window #image_four {
     top: -5vh;
@@ -656,7 +656,7 @@ audio:hover {
 }
 @media screen and (max-height: 630px) and (max-width: 490px) {
   .welcome_page .welcome {
-    padding-top: 300px;
+    padding-top: 400px;
   }
   .timeline_page .image_window .title {
     top: 72vh;

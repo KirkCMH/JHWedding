@@ -644,7 +644,7 @@ audio {
       // top: 755px;
       .button {
         height: 19.5px;
-        margin: 0 2.5%;
+        margin: 0 2%;
       }
     }
   }
@@ -665,7 +665,7 @@ audio {
       position: fixed;
       width: 100vw;
       height: 100vh;
-      right: 0;
+      left: 0vw;
       top: 0;
 
       .window {
@@ -734,7 +734,7 @@ audio {
         .text {
           font-weight: normal;
           font-size: 16px;
-          margin-left: 12vw;
+          margin-left: 3vw;
           line-height: 25px;
           margin-top: 11px;
         }
@@ -819,7 +819,8 @@ audio {
         top: -5vh;
       }
       .text {
-        width: 300px;
+        
+        width: 270px;
       }
       #image_four {
         top: -5vh;
@@ -851,7 +852,7 @@ audio {
 @media screen and (max-height: 630px) and (max-width: 490px) {
   .welcome_page {
     .welcome {
-      padding-top: 300px;
+      padding-top: 400px;
     }
   }
 
