@@ -6,7 +6,7 @@ $(window).scroll(function () {
     let height = $(".timeline_page").eq(0).offset().top;
     let plus = (height + 100) * 0.25;
     let window_top = [
-      height - 150 + plus * 0,
+      height - 550 + plus * 0,
       height + plus * 1,
       height + plus * 2,
       height + plus * 3,
