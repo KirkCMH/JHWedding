@@ -256,7 +256,8 @@ audio:hover {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .location_page {
@@ -344,7 +345,8 @@ audio:hover {
   font-family: "Noto Sans", "Helvetica";
   padding-bottom: 8px;
   letter-spacing: 1px;
-  text-decoration: dotted;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
 }
 .location_page .traffic {
   position: relative;
@@ -377,7 +379,8 @@ audio:hover {
   height: 100%;
   top: 0;
   left: 0;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   opacity: 0.2;
 }
 .footer .mask {
@@ -471,7 +474,8 @@ audio:hover {
   .huge_photo_page .full_screen {
     height: 100vh;
     width: auto;
-    object-fit: fill;
+    -o-object-fit: fill;
+       object-fit: fill;
     left: 0%;
   }
   .huge_photo_page .handwriting_1 {
@@ -525,7 +529,8 @@ audio:hover {
     left: 0;
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .timeline_page .image_window .window .up {
     top: 5vh;
@@ -538,6 +543,9 @@ audio:hover {
     left: 15vw;
     width: 75vw;
     height: 64vh;
+  }
+  .timeline_page .image_window .window_short {
+    margin-top: 10vh;
   }
   .timeline_page .image_window .default {
     display: block;
@@ -572,7 +580,10 @@ audio:hover {
     margin-top: 11px;
   }
   .timeline_page .image_window .top {
-    top: 7vh;
+    top: 3vh;
+  }
+  .location_page .info {
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -587,6 +598,9 @@ audio:hover {
   .location_page .traffic {
     width: 88vw;
   }
+  .welcome_page {
+    height: 140vh;
+  }
   .welcome_page .jack_png,
   .welcome_page .hanny_png {
     width: 100vw;
@@ -595,6 +609,8 @@ audio:hover {
     left: 53%;
   }
   .welcome_page .welcome {
+    height: 16vh;
+    padding-top: 54vh;
     padding-top: 450px;
     font-size: 36px;
   }
@@ -610,10 +626,27 @@ audio:hover {
     margin: 0 2%;
   }
   .timeline_page {
-    height: 250vh;
+    height: 260vh;
   }
   .timeline_page .image_window {
-    top: 0vh;
+    top: -1vh;
+  }
+  .timeline_page .image_window .default {
+    top: -5vh;
+  }
+  .timeline_page .image_window .text {
+    width: 300px;
+  }
+  .timeline_page .image_window #image_four {
+    top: -5vh;
+  }
+  .huge_photo_page .handwriting_2 {
+    top: 10vh;
+    left: 10vw;
+    width: 85vw;
+  }
+  .info {
+    margin-bottom: 60px;
   }
 }
 @media screen and (max-height: 700px) and (max-width: 490px) {
